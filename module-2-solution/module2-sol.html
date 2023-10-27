@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>module-2-sol</title>
+	<style type="text/css">
+		* {
+			box-sizing: border-box;
+		}
+
+		h1{
+			color: black;
+			font-family: sans-serif;
+			text-align: center;
+			font-weight: bold;
+			margin-bottom: 50px;
+
+		}
+
+		.row {
+			width: 100%;
+			overflow: hidden;
+		}
+
+		@media (min-width: 992px) {
+			.section {
+				float: left;
+				overflow: hidden;
+			}
+			.section {
+				width: 33.33%;
+			}
+		}
+
+		@media (min-width: 768px) and (max-width: 991px) {
+			.section {
+				overflow: hidden;
+				width: 50%;
+                display: inline-block;
+               margin-right: -42px; /* To remove the gap between inline-block elements */
+               overflow: hidden;
+
+               
+            }
+        
+            .section:last-child {
+                width: 100%; /* Set the last section to occupy 100% width */
+                overflow: hidden;
+
+            }
+
+            .section:first-child {
+                margin-left: 20px;
+                overflow: hidden;
+            }
+
+            @media (max-width: 767px) {
+            	.section {
+            		overflow: hidden;
+            		width: 100%;
+            		display: block;
+            		margin-right: 0px;
+            		margin-top: 100px;
+            	}
+            }
+		}
+		#p1 {
+			position: absolute;
+            top: 0px;
+            right: 0px;
+            background-color: lightblue;
+            color: black;
+            padding: 5px 10px;
+            height: 30px;
+            width: 100px;
+            text-align: right;
+            font-family: sans-serif;
+            font-weight: bold;
+            border: 1px solid black;
+
+            
+        }
+
+		#p2 {
+			top: 0px;
+            right: 0px;
+            padding: 5px 10px;
+			background-color: indianred;
+			position: absolute;
+			text-align: right;
+			height: 30px;
+            width: 100px;
+            font-family: sans-serif;
+            font-weight: bold;
+            border: 1px solid black;
+
+		}
+		#p3 {
+			top: 0px;
+            right: 0px;
+            padding: 5px 10px;
+			background-color: silver;
+			position: absolute;
+			text-align: right;
+			height: 30px;
+            width: 100px;
+            font-family: sans-serif;
+            font-weight: bold;
+            border: 1px solid black;
+			}
+		#box {
+			position: relative;
+			border: 1px solid black;
+			background-color: gray;
+			width: 90%;
+			height: 150px;
+			margin-right: auto;
+			margin-left: auto;
+			font-family: sans-serif;
+			color: black;
+			margin-bottom: 10px;
+			margin-top: 10px;
+
+		}
+		p {
+			margin-top: 40px;
+			text-align: center;
+
+	
+		}
+	</style>
+</head>
+<body>
+<h1>Car Section</h1>
+<div class="row">
+	<div class="section">
+		<div id="box"><div id="p1">BMW</div>
+			<p>BMW, or Bayerische Motoren Werke AG, is another prestigious German automaker with a rich heritage dating back to 1916. BMW is famous for its "Ultimate Driving Machine" tagline, emphasizing the sporty and dynamic nature of its vehicles. 
+			</p>
+		</div>
+	</div>
+
+<div class="section">
+		<div id="box"><div id="p2">Ferrari</div>
+			<p>Ferrari, an Italian manufacturer founded by Enzo Ferrari in 1947, represents the pinnacle of automotive passion and performance. The Prancing Horse logo is synonymous with exotic sports cars and Formula 1 racing success.  
+			</p>
+		</div>
+	</div>
+	<div class="section">
+		<div id="box"><div id="p3">Mercedes</div>
+			<p>Mercedes-Benz, a division of Daimler AG, is a German automotive manufacturer renowned for its commitment to engineering, safety, and innovation. 
+			</p>
+		</div>
+	</div>
+</div>
+</body>
+</html>
