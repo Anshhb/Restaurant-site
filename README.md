@@ -4,7 +4,7 @@ This is a website project for David Chu's China Vistro, created as part of a HTM
 
 ## Live Demo
 
-Check out the live demo [here](https://your-username.github.io/Restaurant-site/).
+Check out the live demo [here](https://anshhb.github.io/Restaurant-site/).
 
 ## Features
 
